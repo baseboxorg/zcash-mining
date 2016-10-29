@@ -26,6 +26,8 @@ else
     echo "addnode=mainnet.z.cash" >~/.zcash/zcash.conf
     echo "rpcuser=username" >>~/.zcash/zcash.conf
     echo "rpcpassword=`head -c 32 /dev/urandom | base64`" >>~/.zcash/zcash.conf
+    echo 'gen=1' >> ~/.zcash/zcash.conf
+    echo "genproclimit=$(nproc)" >> ~/.zcash/
     echo "Zcash is now installed!"
     echo " "
 fi
