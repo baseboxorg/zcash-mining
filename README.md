@@ -10,7 +10,7 @@ $ ./install.sh
 
 ## Running it
 
-Simply run `zcashd` in a terminal windows to start bmining on the **main** Blockchain~
+Simply run `zcashd` in a terminal windows to start mining on the **main** Blockchain~
 
 _You can add the -d flag to the above command to run it in the background_
 
